@@ -1,3 +1,3 @@
 #!/bin/bash
 echo 
-bettercap -X
+./bettercap -X --proxy -P POST
