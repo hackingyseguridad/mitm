@@ -67,6 +67,10 @@ sudo tail -f /var/log/auth.log
 Funcionamiento de un Switch Ethernet: El Swicht es un dispotivo que interconecta ordenadores de una red. Su funcionamiento es algo distinto al del Hub, pues va dando de alta en una tabla direcciones volatil, las MAC Address e IP asociadas a cada dispositivo ethernet, de tal forma que crea una tabla para luego saber entregar a la MAC correspondiente cada paquete segun corresponda, sin enviar estos paquetes a otras MAC de otros ethernet tambien conectados fisicamente.
 La mayoria de los swicht de uso empresarial, son configurables, permiten hacer Trunk, lo posibilita reenviar una copia de todo el trafico a una pata ethernet, donde tendremos un PC en modo promiscuo interceptando todos los paquetes de esa red
 
+Funcionamiento de un TAB: un Tab es una interceptacion directa del trafico empalamando directamente en los pares de cobre, conectores ethernet para conectar un dispositivo o PC de interceptacion:
+https://www.facebook.com/hackyseguridad/photos/lan-tap-captura-trafico-en-medio-de-la-redmitm-con-wireshark-tcpdump-ethercap-be/1847331205340125/
+https://es.aliexpress.com/item/4001285034927.html?
+
 # Interceptación WEB!
 
 En el propio navegador Web con plugings de intereceptacion HTTP Live Headers
